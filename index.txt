@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css/New Text Document.css">  
+        <link rel="shortcut icon" href="resources/image/favicon.jpeg" type="image/x-icon"> 
+          
+        <title>
+            LET'S GO AIRLINES
+        </title>
+        
+    </head>
+    <body>
+        <header >
+            <div id="top-header">
+                <div id="logo">
+                    <img src="resources/image/logo.png"  width="1600" height="300" />
+                </div>   
+                <div id="name">
+                   <h1> <b>LET'S GO AIRLINES<b> </h1>
+                </div> 
+                <nav class="navbar background">
+                    <ul class="nav-list">
+                        <li><a href="#overview">Overview</a></li>
+                        <li><a href="#vision">Vision</a></li>
+                        <li><a href="#values">Values</a></li>
+                    </ul>  
+        </nav>
+        </div>  
+    </header>
+    <body>
+        <center>
+<h1>Search flight</h1>
+<form name="myform" method="post" onSubmit="return validate()">
+    
+<table align="center" cell padding="10">
+    <tr>   
+        <td>Origin City</td>
+        <td><select type ="text" name="Origin City">
+            <option value="Banglore">Banglore</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Kolkata">Kolkata</option>
+        </select>
+        </td>
+</tr>
+<tr>   
+    <td>Destination City</td>
+    <td><select type ="text" name="Destination City">
+        <option value="Banglore">Banglore</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Kolkata">Kolkata</option>
+    </select>
+    </td>
+</tr>
+<tr>   
+    <td>Date of Journey</td>
+    <td><input type ="date" name="Date of journey"  min="2021-08-23" /></td>
+</tr>
+<tr>   
+    <td>Number of Passengers</td>
+    <td><select type ="number" name="Number of passengers" value="1" >
+        <option value="1">1</option>
+        <option value="2">2</option>
+    </select>
+    </td>
+</tr>
+<tr>   
+    <td colspan="2" align="center">
+        <button>Search Flights</button></td>
+</tr>
+</table>
+</form>
+ 
+<script type="text/javascript">
+    function validate() {
+        var from = document.forms["myform"]["Origin City"].value;
+        var to = document.forms["myform"]["Destination City"].value;
+            var date = document.forms["myform"]["Date of journey"].value;
+          if(date=="") 
+          {
+            alert("enter the Date of journey");
+          return false;}
+          if(from==to){
+            alert("enter the valid details");
+          return false;
+
+          }
+          
+
+
+
+
+          
+          }
+            
+    </script>
+    </center>
+            <section class="firstsection">
+                <div class="box-main">
+                    <div class="firstHalf">
+                        <h1 class="text-big" id="overview">OVERVIEW</h1>
+                        <p class="text-small">
+                            Let’s Go Airlines is the project name for a new airline company that will focus on single
+                            class long-haul scheduled flights. Let’s Go Airlines will capitalise on the widening gap in
+                            long-haul travel between business and economy class. Let’s Go Airlines will operate
+                            Boeing 757-200 aircraft configured with 80 seats which will provide a very spacious and
+                            pleasant environment. The aircraft will be equipped with the latest technology in order to
+                            enable the business traveller to use his time efficiently while travelling. The company will
+                            start by leasing two aircraft and expand its fleet to 6 aircraft by the second year of
+                            operation.   
+                        </p>
+                        <p class="text-small">
+                            Let’s Go will be a "business to business" airline and will focus exclusively on the
+                            premium/business segment of the market. It will offer customers a compelling value
+                            proposition: a high level of service and comfort at 50 percent of the current published
+                            business-class fare. In addition to an attractive price, Let’s Go will offer passengers
+                            considerable time savings, convenience, and will focus on creating a lifestyle appeal.</p>
+         
+                    </div>
+                </div>
+            </section>    
+                <section class="secondsection">
+                    <div class="box-main">
+                        <div class="firstHalf">
+                            <h1 class="text-big" id="vision">
+                                VISION
+                            </h1>
+                            <p class="text-small">
+                                Let's Go aims to establish itself as a niche player in the long-haul market of business
+                                travel. By continuously focusing on the needs of the premium class business traveller,
+                                Let’s Go will provide the best value proposition in the markets it serves.
+                            </p>
+             
+             
+                        </div>
+                    </div>
+                </section>
+                <section class="thirdsection">
+                    <div class="box-main">
+                        <div class="firstHalf">
+                        <h1 class="text-big" id="values">VALUES</h1>
+             
+                        <p class="text-small">
+                            We exist to provide a valuable service to our customers, a rewarding opportunity for our
+employees, and profitability to our shareholders. We believe that success in this
+endeavor depends on our employees. Satisfied employees lead to satisfied customers,
+which lead to satisfied shareholders. To achieve this, we enable our employees to act
+with an entrepreneurial spirit, and we value those willing to take responsibility for their
+actions and the consequences of those actions. We treat employees as family, which
+fosters intimacy, informality, strong relationships, caring attitudes, and it makes work
+more fun. We want our customers to experience legendary service that makes a lasting
+impression. Providing exceptional value to customers requires hard work and
+concentration. We believe in doing things right the first time. We take pride in our efforts
+as well as the rewards. Throughout this endeavor, safety will be the overriding force
+behind any decision.
+
+                        </p>
+             
+             
+                    </div>
+                        
+                </section>
+
+  
+    </body>
+</html>

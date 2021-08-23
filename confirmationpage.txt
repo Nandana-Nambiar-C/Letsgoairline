@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css/New Text Document.css">  
+        <link rel="shortcut icon" href="resources/image/favicon.jpeg" type="image/x-icon"> 
+          
+        <title>
+            Confirmation Page
+        </title>
+        
+    </head>
+    <body>
+        <header >
+            <div >
+<p>Congratulations! Your ticket has been booked succesfully</p>
+<section class="firstsection">
+    <h1 class="text-big" id="Flight Info">
+       Flight Information
+    </h1>
+    <p>Unique Id:</p>
+    <p>Origin City:</p>
+    <p>Destination City:</p>
+    <p>Date of Journey:</p>
+    <p>Departure Time:</p>
+    <p>Arrival Time:</p>
+    <p>Ticket price:</p>
+    <p>No of passengers:</p>
+
+</section>
+<Section class="secondsection">
+    <h2 class="text-big" id="Passenger info">
+        Passenger  Information
+     </h2>
+    <p>First Name:</p>
+    <p>Last Name:</p>
+    <p>Age:</p>
+    <p>Gender:</p>
+    <p>Email Id:</p>
+    <p>Phone Number:</p>
+    </Section>
+    <section class="thirdsection">
+    <a href="index.html" class="button">Go to Homepage</a>
+    
+</section>
+            </div>
+            </header>
+        </body>
+        </html>
